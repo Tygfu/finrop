@@ -28,6 +28,13 @@
       scroll-behavior: smooth;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+    #privacy {
+      scroll-margin-top: 80px; /* скоригуйте під висоту вашого header */
+    }
+
     header {
       display: flex;
       flex-wrap: wrap;
@@ -160,7 +167,7 @@
   <section id="about">
     <h2 id="about-title">Про нас</h2>
     <p id="about-text">
-      Finrop — молода команда, яка вже сьогодні перетворює довіру на прибуток. Ви інвестуєте — ми працюємо з валютними парами на глобальних біржах, примножуючи ваш капітал завдяки досвіду, аналітиці та точним стратегіям.
+      Finrop — молода команда, яка вже сьогодні перетворює довіру на прибуток. Ви інвестуєте — ми працюємо з валютними та фондовими ринками, використовуючи досвідчений підхід до аналізу можливостей.
     </p>
   </section>
 
@@ -198,16 +205,14 @@
   </section>
 
   <section id="privacy">
-    <h2 data-uk="Політика конфіденційності" data-en="Privacy Policy">Політика конфіденційності</h2>
-    <p data-uk="Ця Політика конфіденційності описує, як Finrop збирає, використовує, зберігає та захищає персональні дані користувачів цього вебсайту." data-en="This Privacy Policy describes how Finrop collects, uses, stores, and protects the personal data of users of this website.">
-      Ця Політика конфіденційності описує, як Finrop збирає, використовує, зберігає та захищає персональні дані користувачів цього вебсайту.
+    <h2 data-uk="Політика конфіденційності" data-en="Privacy Policy" id="privacy-title">Політика конфіденційності</h2>
+    <p id="privacy-text" data-uk="Ця Політика конфіденційності описує, як Finrop збирає, використовує, зберігає та захищає персональні дані користувачів." data-en="This Privacy Policy describes how Finrop collects, uses, stores, and protects users' personal data.">
+      Ця Політика конфіденційності описує, як Finrop збирає, використовує, зберігає та захищає персональні дані користувачів.
     </p>
-  
     <h3 data-uk="1. Збір персональної інформації" data-en="1. Collection of Personal Information">1. Збір персональної інформації</h3>
-    <p data-uk="Ми збираємо лише ту інформацію, яку ви добровільно надаєте через форму заявки: ваше ім’я, вік, планована сума інвестиції, а також контактні дані (номер телефону або Telegram)." data-en="We only collect information you voluntarily provide through the application form: your name, age, intended investment amount, and contact details (phone number or Telegram).">
-      Ми збираємо лише ту інформацію, яку ви добровільно надаєте через форму заявки: ваше ім’я, вік, планована сума інвестиції, а також контактні дані (номер телефону або Telegram).
+    <p data-uk="Ми збираємо лише ту інформацію, яку ви добровільно надаєте через форму заявки: ваше ім’я, вік, планована сума інвестиції, контакт для зв’язку." data-en="We collect only the information you voluntarily provide through the application form: your name, age, planned investment amount, and contact details.">
+      Ми збираємо лише ту інформацію, яку ви добровільно надаєте через форму заявки: ваше ім’я, вік, планована сума інвестиції, контакт для зв’язку.
     </p>
-  
     <h3 data-uk="2. Мета обробки даних" data-en="2. Purpose of Data Processing">2. Мета обробки даних</h3>
     <p data-uk="Зібрана інформація використовується виключно для:" data-en="Collected information is used solely for:">Зібрана інформація використовується виключно для:</p>
     <ul>
@@ -215,17 +220,14 @@
       <li data-uk="надання зворотного зв’язку;" data-en="providing feedback;">надання зворотного зв’язку;</li>
       <li data-uk="встановлення контакту для подальшої комунікації." data-en="establishing contact for further communication.">встановлення контакту для подальшої комунікації.</li>
     </ul>
-  
     <h3 data-uk="3. Зберігання та захист даних" data-en="3. Data Storage and Protection">3. Зберігання та захист даних</h3>
     <p data-uk="Уся інформація зберігається з дотриманням норм безпеки. Доступ до ваших даних мають лише уповноважені особи Finrop." data-en="All information is stored securely. Only authorized Finrop personnel have access to your data.">
       Уся інформація зберігається з дотриманням норм безпеки. Доступ до ваших даних мають лише уповноважені особи Finrop.
     </p>
-  
     <h3 data-uk="4. Передача третім особам" data-en="4. Sharing with Third Parties">4. Передача третім особам</h3>
-    <p data-uk="Ми не передаємо ваші персональні дані третім особам без вашої окремої згоди, за винятком випадків, передбачених законодавством України." data-en="We do not share your personal data with third parties without your explicit consent, except as required by Ukrainian law.">
-      Ми не передаємо ваші персональні дані третім особам без вашої окремої згоди, за винятком випадків, передбачених законодавством України.
+    <p data-uk="Ми не передаємо ваші персональні дані третім особам без вашої окремої згоди, за винятком випадків, передбачених законом." data-en="We do not share your personal data with third parties without your explicit consent, except as required by law.">
+      Ми не передаємо ваші персональні дані третім особам без вашої окремої згоди, за винятком випадків, передбачених законом.
     </p>
-  
     <h3 data-uk="5. Ваші права" data-en="5. Your Rights">5. Ваші права</h3>
     <p data-uk="Ви маєте право:" data-en="You have the right to:">Ви маєте право:</p>
     <ul>
@@ -233,26 +235,21 @@
       <li data-uk="вимагати виправлення або видалення інформації;" data-en="request correction or deletion of your data;">вимагати виправлення або видалення інформації;</li>
       <li data-uk="відкликати згоду на обробку персональних даних у будь-який момент." data-en="withdraw your consent to data processing at any time.">відкликати згоду на обробку персональних даних у будь-який момент.</li>
     </ul>
-  
-    <p data-uk="Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті." data-en="To do so, contact our administration using the contact details provided on the website.">
+    <p data-uk="Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті." data-en="To do so, contact our administration via the contact details provided on the site.">
       Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті.
     </p>
-  
     <h3 data-uk="6. Використання reCAPTCHA" data-en="6. Use of reCAPTCHA">6. Використання reCAPTCHA</h3>
-    <p data-uk="На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google згідно з їх" data-en="This site uses Google reCAPTCHA to protect against spam. Your interactions may be analyzed by Google services under their">
-      На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google згідно з їх
+    <p data-uk="На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google відповідно до їхньої" data-en="Google reCAPTCHA is used on the site to protect against spam. Your activities may be analyzed by Google services according to their">
+      На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google відповідно до їхньої
       <a href="https://policies.google.com/privacy" target="_blank">Політикою конфіденційності</a> та
       <a href="https://policies.google.com/terms" target="_blank">Умовами використання</a>.
     </p>
-  
     <h3 data-uk="7. Зміни до політики" data-en="7. Changes to the Policy">7. Зміни до політики</h3>
-    <p data-uk="Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цій сторінці." data-en="We reserve the right to change this policy at any time. The latest version will always be available on this page.">
-      Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цій сторінці.
+    <p data-uk="Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цьому сайті." data-en="We reserve the right to change this policy at any time. The current version will always be available on this site.">
+      Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цьому сайті.
     </p>
-  
     <p data-uk="<strong>Дата оновлення:</strong> 1 червня 2025 року" data-en="<strong>Last updated:</strong> June 1, 2025"><strong>Дата оновлення:</strong> 1 червня 2025 року</p>
   </section>
-  
 </main>
 
 <footer>
