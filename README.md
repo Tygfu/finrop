@@ -354,7 +354,7 @@
       return false;
     }
 
-    const message = `📝 Нова заявка:\n👤 Ім'я: ${name}\n📅 Вік: ${age}\n💵 Сума: $${amount}\n💬 Контакт: {contact}`;
+    const message = `📝 Нова заявка:\n👤 Ім'я: ${name}\n📅 Вік: ${age}\n💵 Сума: $${amount}\n💬 Контакт: ${contact}`;
 
     fetch(`https://api.telegram.org/bot7829423068:AAE4PrTCGQPlTgm24mrfAripeoIfyn5YSqM/sendMessage`, {
       method: "POST",
