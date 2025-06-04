@@ -24,11 +24,15 @@
       color: var(--text-color);
       transition: background-color 0.3s, color 0.3s;
       scroll-behavior: smooth;
-    }
+      height: 100%;
+      }
+
 
     html {
-      scroll-behavior: smooth;
-    }
+       scroll-behavior: smooth;
+       height: 100%;
+        }
+
     #privacy {
       scroll-margin-top: 80px; /* скоригуйте під висоту вашого header */
     }
@@ -85,8 +89,9 @@
     }
 
     main {
-      padding: 20px;
-    }
+     padding: 20px;
+     min-height: calc(100vh - 120px); /* 100% висоти мінус header+footer */
+     }
 
     section {
       margin-bottom: 40px;
