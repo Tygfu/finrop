@@ -277,6 +277,7 @@
         amount: "Скільки ви плануєте вкласти (у $)?",
         contact: "Ваш Telegram або номер телефону:",
         privacy: 'Я погоджуюсь з <a href="#privacy">Політикою конфіденційності</a>',
+        <div class="g-recaptcha" data-sitekey="6LcMZ1UrAAAAAFMFSWuTnItSialMejjg3LCkGtP"></div>
         button: "Надіслати заявку"
       },
       privacyTitle: "Політика конфіденційності",
@@ -299,6 +300,7 @@
         amount: "How much do you plan to invest (in $)?",
         contact: "Your Telegram or phone number:",
         privacy: 'I agree with the <a href="#privacy">Privacy Policy</a>',
+          <div class="g-recaptcha" data-sitekey="6LcMZ1UrAAAAAFMFSWuTnItSialMejjg3LCkGtP"></div>
         button: "Submit"
       },
       privacyTitle: "Privacy Policy",
