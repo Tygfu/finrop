@@ -160,7 +160,7 @@
   <nav>
     <a href="#about" id="nav-about">Про нас</a>
     <a href="#services" id="nav-services">Послуги</a>
-    <a href="#privacy" id="nav-privacy">Політика</a>
+    <a href="#privacy" id="nav-privacy">Політика конфідеційності</a>
     <button class="theme-toggle" onclick="toggleTheme()">☀︎</button>
     <button class="lang-toggle" onclick="toggleLang()">🌐</button>
   </nav>
@@ -241,11 +241,7 @@
     <p data-uk="Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті." data-en="To do so, contact our administration via the contact details provided on the site.">
       Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті.
     </p>
-      На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google відповідно до їхньої
-      <a href="https://policies.google.com/privacy" target="_blank">Політикою конфіденційності</a> та
-      <a href="https://policies.google.com/terms" target="_blank">Умовами використання</a>.
-    </p>
-    <h3 data-uk="7. Зміни до політики" data-en="7. Changes to the Policy">7. Зміни до політики</h3>
+    <h3 data-uk="6. Зміни до політики" data-en="7. Changes to the Policy">7. Зміни до політики</h3>
     <p data-uk="Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цьому сайті." data-en="We reserve the right to change this policy at any time. The current version will always be available on this site.">
       Ми залишаємо за собою право змінювати цю політику в будь-який момент. Актуальна версія завжди буде доступна на цьому сайті.
     </p>
@@ -254,7 +250,7 @@
 </main>
 
 <footer>
-  <p>© 2025 Finrop</p>
+  <p>© Finrop</p>
 </footer>
 
 <script>
@@ -361,7 +357,7 @@
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        chat_id: -4978937001,
+        chat_id: -1002648898486,
         text: message,
         parse_mode: "HTML"
       })
