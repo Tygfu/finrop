@@ -154,7 +154,7 @@
 
 <header>
   <div class="logo-container">
-    <img src="https://iili.io/FHqMkx9.png" alt="Finrop logo">
+    <img src="https://camo.githubusercontent.com/965d541ed998eab412e3ae9d06656e224cd6f0d577b2395d4fffefaf61734a6d/68747470733a2f2f69696c692e696f2f4648714d6b78392e706e67" alt="Finrop logo">
     <h1>Finrop</h1>
   </div>
   <nav>
