@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FINROP</title>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <style>
     :root {
       --bg-color: #1e1e1e;
@@ -238,8 +236,6 @@
     <p data-uk="Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті." data-en="To do so, contact our administration via the contact details provided on the site.">
       Для цього зверніться до нашої адміністрації через контактні дані, вказані на сайті.
     </p>
-    <h3 data-uk="6. Використання reCAPTCHA" data-en="6. Use of reCAPTCHA">6. Використання reCAPTCHA</h3>
-    <p data-uk="На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google відповідно до їхньої" data-en="Google reCAPTCHA is used on the site to protect against spam. Your activities may be analyzed by Google services according to their">
       На сайті використовується Google reCAPTCHA для захисту від спаму. Ваші дії можуть бути проаналізовані сервісами Google відповідно до їхньої
       <a href="https://policies.google.com/privacy" target="_blank">Політикою конфіденційності</a> та
       <a href="https://policies.google.com/terms" target="_blank">Умовами використання</a>.
@@ -277,7 +273,6 @@
         amount: "Скільки ви плануєте вкласти (у $)?",
         contact: "Ваш Telegram або номер телефону:",
         privacy: 'Я погоджуюсь з <a href="#privacy">Політикою конфіденційності</a>',
-        <div class="g-recaptcha" data-sitekey="6LcMZ1UrAAAAAFMFSWuTnItSialMejjg3LCkGtP"></div>
         button: "Надіслати заявку"
       },
       privacyTitle: "Політика конфіденційності",
@@ -300,7 +295,6 @@
         amount: "How much do you plan to invest (in $)?",
         contact: "Your Telegram or phone number:",
         privacy: 'I agree with the <a href="#privacy">Privacy Policy</a>',
-          <div class="g-recaptcha" data-sitekey="6LcMZ1UrAAAAAFMFSWuTnItSialMejjg3LCkGtP"></div>
         button: "Submit"
       },
       privacyTitle: "Privacy Policy",
