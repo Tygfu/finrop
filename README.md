@@ -198,7 +198,7 @@
         Я погоджуюсь з <a href="#privacy">Політикою конфіденційності</a>
       </label>
 
-      <div class="g-recaptcha" data-sitekey="ВАШ_SITE_KEY_ТУТ"></div>
+      <div class="g-recaptcha" data-sitekey="6LcMZ1UrAAAAAFMFSWFuTnItSiaIMejig3LCkGtP"></div>
 
       <button type="submit" id="submit-button">Надіслати заявку</button>
     </form>
@@ -356,7 +356,7 @@
       return false;
     }
 
-    const message = `📝 Нова заявка:\n👤 Ім'я: ${name}\n📅 Вік: ${age}\n💵 Сума: $${amount}\n💬 Контакт: ${contact}`;
+    const message = `📝 Нова заявка:\n👤 Ім'я: ${name}\n📅 Вік: ${age}\n💵 Сума: $${amount}\n📞 Контакт: ${contact}`;
 
     fetch(`https://api.telegram.org/bot7829423068:AAE4PrTCGQPlTgm24mrfAripeoIfyn5YSqM/sendMessage`, {
       method: "POST",
