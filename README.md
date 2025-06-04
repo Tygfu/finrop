@@ -260,7 +260,7 @@
     uk: {
       nav: ["Про нас", "Послуги", "Політика"],
       aboutTitle: "Про нас",
-      aboutText: "Finrop — молода команда, яка вже сьогодні перетворює довіру на прибуток...",
+      aboutText: "Finrop — молода команда, яка вже сьогодні перетворює довіру на прибуток. Ви інвестуєте — ми працюємо з валютними парами на глобальних біржах, примножуючи ваш капітал завдяки досвіду, аналітиці та точним стратегіям. Жодних хаотичних рішень — тільки чіткий план, контроль ризиків і прозорість на кожному етапі. Ми цінуємо кожного клієнта і будуємо співпрацю на відповідальності, впевненості та результаті. Finrop — гроші повинні працювати.",
       servicesTitle: "Послуги",
       servicesList: [
         "Керування інвестиціями на глобальних ринках",
@@ -282,7 +282,7 @@
     en: {
       nav: ["About", "Services", "Policy"],
       aboutTitle: "About Us",
-      aboutText: "Finrop is a young team that is already turning trust into profit...",
+      aboutText: "Finrop — is a young team that is already turning trust into profit. You invest - we work with currency pairs on global exchanges, multiplying your capital through experience, analytics and precise strategies. No chaotic decisions - only a clear plan, risk control and transparency at every stage. We value each client and build cooperation on responsibility, confidence and results. Finrop - money should work.",
       servicesTitle: "Services",
       servicesList: [
         "Investment management on global markets",
