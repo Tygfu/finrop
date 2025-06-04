@@ -353,13 +353,14 @@
 
     const message = `📝 Нова заявка:\n👤 Ім'я: ${name}\n📅 Вік: ${age}\n💵 Сума: $${amount}\n📞 Контакт: ${contact}`;
 
-    fetch(`https://api.telegram.org/bot7829423068:AAE4PrTCGQPlTgm24mrfAripeoIfyn5YSqM/sendMessage`, {
+    fetch("https://api.telegram.org/bot7829423068:AAE4PrTCGQPlTgm24mrfAripeoIfyn5YSqM/sendMessage", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json" 
+      },
       body: JSON.stringify({
-        chat_id: -1002648898486,
+        chat_id: "-1002648898486",
         text: message,
-        parse_mode: "HTML"
       })
     })
     .then(response => {
