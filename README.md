@@ -341,6 +341,7 @@
     const age = parseInt(document.getElementById('age').value, 10);
     const amount = parseFloat(document.getElementById('amount').value);
     const name = document.getElementById("name").value.trim();
+    const contact = document.getElementById("contact").value.trim();
 
     if (age < 18) {
       alert(currentLang === 'uk' ? 'Мінімальний вік — 18 років.' : 'Minimum age is 18 years.');
